@@ -1,0 +1,120 @@
+<html>
+<head>
+<style type="text/css">
+body
+{
+	font-family: Arial;
+}
+</style>
+</head>
+
+<body>
+<style type="text/css">
+.mytable{
+width:800px;
+height:100px;
+margin:0 auto;
+border-collapse: collapse;
+
+}
+</style>
+
+<table class="mytable" bordercolor="#EEEEE6" border="1">
+  <tr>
+    <th></th>
+    <th><br> <h2 align="center">REVIO: A Wide-field OCT-Angiography Retinal Vessel Segmentation Dataset and New Model
+</h2></th>
+	<td></td>
+  </tr>
+  
+  <tr>
+    <td></td>
+    <td ><br>--------------------------------------------------------------------------------------------------------------------------------------------<br>
+<br>  A novel Spatial Domain and Frequency Domain Network (SFNet) for OCTA vessel segmentation  2024.2.2.,
+<br>  Permission to use copy, or modify this dataset, tool and codes for educational and research purposes.
+<br>  E-mail : lisienkyanbis@163.com  
+<br>  Homepage : https://github.com/kyanbis/CFANET
+<br>--------------------------------------------------------------------------------------------------------------------------------------------<br><br> 
+<b>1. Dataset Description </b>
+<br> 
+<p style=text-align:justify; text-justify:inter-ideograph;> 
+Our dataset is based on the OCTA technique, by using the SS-OCT system to obtain the eye images of 50 people of different age groups. 
+All optic disc and macula images are annotated by experienced doctors. To protect the privacy of people, 
+the information of optic disc and macula images is anonymous during the construction of the optic disc and macula dataset.
+
+
+According to the characteristics of OCTA images, we can examine the choroidal vessels on the basis of OCTA images.
+The choroidal vessels are not easily distinguished due to the presence of complex structures in the ocular tissue features.
+The optic disc and macula are usually located in the plane of the retinal nerve fiber layer with an inner boundary membrane covering the surface.
+Therefore, we could determine the boundaries between the retinal nerve fiber layer and the anterior sieve plate area, the sieve plate area, and the posterior go of the sieve plate.
+However, in our study, the areas of optic disc and macular lesions often appeared in the retinal nerve fiber layer. To clearly segment the optic disc and macular lesions, the
+we chose the retinal nerve fiber layer and the sieve plate area to segment the optic disc and macular lesion.
+<br>  This dataset will be soon released publicly. The ground-truth samples were manually made by our experts, which are aided with our self-developed software. 
+
+
+    The data-set is captured by wide-field OCTA(WF-OCTA). The optic disc and macula dataset contains pixel-level labels and image-level labels of 288 $\times$ 288 pixels. 
+<br>  This dataset will be soon released publicly. The ground-truth samples were manually made by our experts, which are aided with our self-developed software. 
+<br>
+<br>
+</p>
+</td>
+	<td></td>
+  </tr>
+   <tr>
+    <td></td>
+	<td>
+ 
+</td>
+    <td>
+	
+</td>
+  </tr>
+   <tr>
+    <td></td>
+	
+    <td><b>2. Code Download </b>
+<br><br>
+2.1 The <b> key code of our approach (SFNet) </b>for demo can be downloaded <a href="Demo_SFNet.rar">here</a> (Pytorch).<br>    
+<br>
+2.2 The code of U-Net for demo can be downloaded <a href="https://github.com/Andy-zhujunwen/U-Net-ZOO">here</a>  (Pytorch).
+<br>
+<br>
+</td>
+  <td>
+	 
+	</td>
+	</tr>
+	 <tr>
+    <td></td>
+	<td>
+ <br><br>--------------------------------------------------------------------------------------------------------------------------------------------<br>
+<h4 align="center">FIGURE 1 The thumbnail view of the Dataset for nonperfusion areas</h4> <br>
+<b>The Original Image </b>
+<img src="ortiginal_img.png" width="800" />
+<br>
+<b>The Ground-truth </b>
+<img src="label.png" width="800" />
+<br>
+<br><br>--------------------------------------------------------------------------------------------------------------------------------------------<br>
+<br>
+	Figure  shows the detailed schematic diagram of SS‐OCT system. The light from the swept light source passes through the beam splitter and enters reference and sample arms, respectively. 
+The light power from the swept source was split 90% into the sample arm and 10% into the reference arm by a fiber coupler. In the sample arm, the light from swept source component reaches 
+retina through a fiber coupler and collimation lens. In the reference arm, the light passes through a collimator and a focusing lens and a mirror reflects the light beam. 
+The light from the reference and sample arms generates interference in a fiber coupler with a ratio of 50:50, and then was redirected toward a balance detector. 
+Electronic signals from the detector were input into the computer.
+<br>
+<br>
+<img src="lisien-oct.png"  width="800" />
+<br>
+</td>
+    <td>
+	<a href="https://clustrmaps.com/site/1bobi"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=QoRYI9AoBD5uM3C9pbBm79T2pX0DSdkJY0iUGEq46eY&cl=ffffff" width="1" height="1" /></a>
+</td>
+<br>
+
+  </tr>
+</table>
+ 
+
+</body>
+</html>
